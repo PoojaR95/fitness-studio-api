@@ -1,0 +1,10 @@
+#use the command "python manage.py shell" 
+#imports
+from fitnessapp.models import FitnessClass
+from django.utils import timezone
+from datetime import timedelta
+
+#the sample input data added
+FitnessClass.objects.create(name="Yoga", instructor="Ravi", date_time=timezone.now() + timedelta(days=1), available_slots=5)
+FitnessClass.objects.create(name="Zumba", instructor="Asha", date_time=timezone.now() + timedelta(days=2), available_slots=10)
+FitnessClass.objects.create(name="HIIT", instructor="Karan", date_time=timezone.now() + timedelta(days=3), available_slots=8)

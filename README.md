@@ -1,3 +1,7 @@
+LOOM VIDEO LINK-----> https://www.loom.com/share/4a9827eca1cb46afaf04c977c476a836?sid=58b0c525-0b6b-4175-923c-f30aa2f693bd
+
+
+
 Fitness Class Booking API-
 This is a simple Django REST API project for managing fitness class bookings.  
 Users can view available fitness classes, book a class (if slots are available), and retrieve their bookings by email.
